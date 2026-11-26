@@ -1,0 +1,26 @@
+.widget {
+  width: 169px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.change-color {
+  border-style: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: rgb(78 117 255);
+  color: #fff;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
+
+.widget-text {
+  margin-bottom: 16px;
+}

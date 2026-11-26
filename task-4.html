@@ -1,25 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 4</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/task-4.css" />
   </head>
   <body>
     <p><a href="./index.html">Go back</a></p>
 
     <form class="login-form">
-      <label>
+      <label class="label">
         Email
-        <input type="email" name="email" />
+        <input
+          class="login-form-input login-form-email-input"
+          type="email"
+          name="email"
+        />
       </label>
-      <label>
+      <label class="label">
         Password
-        <input type="password" name="password" />
+        <input
+          class="login-form-input login-form-password-input"
+          type="password"
+          name="password"
+        />
       </label>
-      <button type="submit">Login</button>
+      <button class="login-form-submit-btn" type="submit">Login</button>
     </form>
 
     <script src="./js/task-4.js" type="module"></script>

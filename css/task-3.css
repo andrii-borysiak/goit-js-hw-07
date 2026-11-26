@@ -1,0 +1,28 @@
+.name-input {
+  width: 360px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  border: 1px solid rgb(128 128 128);
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: rgb(46 47 66);
+}
+
+.name-input:hover {
+  border-color: rgb(0 0 0);
+}
+
+.name-input:focus {
+  border-color: rgb(128 128 128);
+  outline: 0;
+}
+
+.greeting {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+}
